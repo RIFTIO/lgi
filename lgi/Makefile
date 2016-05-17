@@ -13,7 +13,7 @@ LUA_SHAREDIR = $(PREFIX)/share/lua/$(LUA_VERSION)
 
 PKG_CONFIG = pkg-config
 GINAME = gobject-introspection-1.0
-PKGS = $(GINAME) gmodule-2.0 libffi
+PKGS = $(GINAME) gmodule-2.0 libffi luajit
 VERSION_FILE = version.lua
 
 ifneq ($(filter cygwin% msys% mingw%, $(HOST_OS)),)
